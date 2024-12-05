@@ -1,0 +1,55 @@
+/* CSS to apply underline and change the color of the underline */
+.highlight-on-hover-yellow {
+    display: inline-block; /* Makes the element behave like inline text */
+    position: relative; /* Ensures pseudo-element is positioned relative to the text */
+  }
+  
+  .highlight-on-hover-yellow:hover::after {
+    content: ''; /* Empty content for the pseudo-element */
+  position: absolute;
+  bottom: 0px; /* Adds space between the text and the underline (adjust as needed) */
+  left: 0;
+  width: 100%; /* Make the underline span the full width of the text */
+  height: 2px; /* Thickness of the underline */
+  background-color: yellow; /* Yellow underline on hover */
+  }
+
+  /* CSS to apply underline and change the color of the underline */
+.highlight-on-hover-blue {
+    display: inline-block; /* Makes the element behave like inline text */
+    position: relative; /* Ensures pseudo-element is positioned relative to the text */
+  }
+  
+.highlight-on-hover-blue:hover::after {
+    content: ''; /* Empty content for the pseudo-element */
+  position: absolute;
+  bottom: 0; /* Position the underline at the bottom of the text */
+  left: 0;
+  width: 100%; /* Make the underline span the full width of the text */
+  height: 2px; /* Thickness of the underline */
+  background-color: #002147; /* Yellow underline on hover */
+  }
+
+
+
+
+
+/* Center the icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between icons */
+    filter: invert(70%);
+  }
+  
+  /* Optional: Add padding around the icons */
+  .social-icon {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  /* Optional: Hover effect */
+  .social-icon:hover img {
+    opacity: 0.7; /* Make icons slightly transparent on hover */
+  }
+  

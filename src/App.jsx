@@ -10,6 +10,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsofUse from './pages/TermsofUse';
 import TradeMarkPolicy from './pages/TradeMarkPolicy'
 import './styles/global.css'; // Import your CSS file here
+import './styles/transition.css';
 
 
 const router = createBrowserRouter(
