@@ -1,7 +1,11 @@
 
 const Legacy = () => {
   return (
-    <div>Legacy</div>
+    <div>
+      <div>Legacy</div>
+      <div>Contact Us</div>
+    </div>
+    
   )
 }
 

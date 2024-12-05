@@ -1,4 +1,5 @@
 import BankPartnership from '../components/BankPartnership'
+import ContactCard from '../components/ContactCard'
 import Hero from '../components/Hero'
 import Legacy from '../components/Legacy'
 import MetricsCard from '../components/MetricsCard'
@@ -14,6 +15,7 @@ const HomePage = () => {
       <MetricsCard />
       <ServiceCard />
       <BankPartnership />
+      <ContactCard />
     </>
   )
 }
