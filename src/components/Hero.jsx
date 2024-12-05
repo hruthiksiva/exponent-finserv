@@ -1,7 +1,10 @@
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+      <div>Quotes</div>
+      <div>Contact Us</div>
+    </div>
   )
 }
 
-export default Hero
+export default Hero;

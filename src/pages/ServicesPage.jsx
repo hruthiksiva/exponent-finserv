@@ -1,7 +1,10 @@
+import ServiceCard from "../components/ServiceCard"
 
 const ServicesPage = () => {
   return (
-    <div>ServicesPage</div>
+    <div>
+      <ServiceCard />
+    </div>
   )
 }
 

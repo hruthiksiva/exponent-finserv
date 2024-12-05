@@ -5,4 +5,4 @@ const Legacy = () => {
   )
 }
 
-export default Legacy
+export default Legacy;
