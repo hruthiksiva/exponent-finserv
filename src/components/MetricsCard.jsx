@@ -1,49 +1,20 @@
+import MetricsCards from "./MetricsCards";
 
 const MetricsCard = () => {
   return (
     <div>
-      <div className="container-xl p-5">
+      <div className="text-center pb-4">
+        <h1 className="mb-3 diplay-1">We have impactful numbers</h1> 
+        <p>Rugue phasellus dignissim lobortis tellus et arcu molestie convallis.</p>
+      </div>
+      <div className="container-xl">
       <div className="row">
-  <div className="col-sm-3">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
+         <MetricsCards title='15K' describe='Happy clients'/>
+         <MetricsCards title='100+' describe='Team members'/>
+         <MetricsCards title='98%' describe='Customer satisfaction'/>
+         <MetricsCards title='100%' describe='Compliance rate'/>
+       </div>
       </div>
-    </div>
-  </div>
-  <div className="col-sm-3">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div className="col-sm-3">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div className="col-sm-3">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-      </div>
-     
     </div>
   )
 }
