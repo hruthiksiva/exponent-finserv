@@ -4,7 +4,7 @@ const Legacy = () => {
       <div className="container col-xxl-12 px-auto py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
-            <h1 className="display-6 fw-bold lh-2 mb-3">Responsive left-aligned hero with image</h1>
+            <h1 className="display-6 fw-bold lh-2 mb-3">Our Legacy of trust and precision</h1>
             <p className="fw-normal mb-4">
               Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
             </p>
