@@ -1,27 +1,27 @@
 import ApplicationHero from "../components/ApplicationHero"
 import MetricsCard from "../components/MetricsCard"
-import ServiceCard from "../components/ServiceCard"
 import BankSlider from "../components/BankSlider"
-import BecomeExponentofuccess from "../components/BecomeExponentofuccess"
-import ScaleUpwithEase from "../components/ScaleUpwithEase"
-import MetricsCard2 from "../components/MetricsCard2"
 import ScaleupWithEaseText from "../components/ScaleupWithEaseText"
+import BecomeExponentOfSuccess from "../components/BecomeExponentOfSuccess"
+import ServiceDetails from "../components/ServiceDetails"
+import JumbotronMetrics from "../components/JumbotronMetrics"
+import ContactCard from "../components/ContactCard"
 
 const ApplicationPage = () => {
   return (
     <div>
       <ApplicationHero />
       <MetricsCard />
-      <BecomeExponentofuccess />
-      <ServiceCard />
-      <MetricsCard2 />
+      <BecomeExponentOfSuccess />
+      <ServiceDetails />
+      <JumbotronMetrics />
       <BankSlider />
       <ScaleupWithEaseText />
-      <ScaleUpwithEase />
+      <ContactCard />
     </div>
     
 
   )
 }
 
-export default ApplicationPage
+export default ApplicationPage;

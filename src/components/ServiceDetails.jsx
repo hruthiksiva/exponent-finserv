@@ -6,8 +6,8 @@ const ServiceDetails = () => {
       <div className="container-xl">
         <div className="row p-5">
           <div className="col-10">
-          <h1>Customised Loaning Services</h1>
-          <p>We provide customised lending options from trusted banks</p>
+          <h1 className="display-5 fw-bold lh-1 mb-3">Exponent Services</h1>
+          <p className="fs-4">We make the loan process seamless and easy by aggregating you on the right banks, so that you can make your dreams a reality.</p>
           </div>
           <div className="col-2">
             <button className="btn btn-primary">All Services</button>

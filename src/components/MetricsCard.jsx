@@ -2,7 +2,7 @@
 const MetricsCard = () => {
   return (
     <div>
-      <div className="container-xl">
+      <div className="container-xl p-5">
       <div className="row">
   <div className="col-sm-3">
     <div className="card">
