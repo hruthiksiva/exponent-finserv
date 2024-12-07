@@ -1,9 +1,8 @@
-import BankPartnership from '../components/BankPartnership'
 import ContactCard from '../components/ContactCard'
 import Hero from '../components/Hero'
 import Legacy from '../components/Legacy'
 import MetricsCard from '../components/MetricsCard'
-import ServiceCard from '../components/ServiceCard'
+import ServiceDetails from '../components/ServiceDetails'
 
 
 
@@ -13,9 +12,13 @@ const HomePage = () => {
       <Hero />
       <Legacy />
       <MetricsCard />
-      <ServiceCard />
-      <BankPartnership />
+      <br></br>
+      <ServiceDetails />
+      {/* <PartnerBanks /> */}
+      <div className='container xl p-5'>
       <ContactCard />
+      </div>
+      
     </>
   )
 }

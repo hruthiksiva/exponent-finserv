@@ -1,10 +1,10 @@
 import ContactForm from "../components/ContactForm"
-import ServiceCard from "../components/ServiceCard"
+import ServiceDetails from "../components/ServiceDetails"
 
 const ServicesPage = () => {
   return (
     <div>
-      <ServiceCard />
+      <ServiceDetails />
       <ContactForm />
     </div>
   )

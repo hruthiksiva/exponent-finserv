@@ -1,3 +1,5 @@
+
+
 const Hero = () => {
   return (
     <div>
@@ -6,7 +8,7 @@ const Hero = () => {
       <div className="col-10 col-sm-8 col-lg-6">
         <img src="src/assets/images/hero-1.jpg" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="1000" height="600" loading="lazy"/>
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-6 text-justify">
         <h1 className="display-5 fw-bold lh-1 mb-3">Expert Loaning Agent For Your Bussiness Success</h1>
         <p className="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
