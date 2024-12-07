@@ -15,7 +15,7 @@ const Hero = () => {
         <h1 className="display-3 fw-bold lh-2 mb-3 text-justify">Expert Loaning Agent For Your Bussiness Success</h1>
         <p className="fs-4 mb-4 text-justify">Become the Exponent of Success! Unlock fast, seamless business loans tailored to your needs. With easy financing solutions, you'll transform your business and scale up like never before!</p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-        <button type="button" className="btn btn-md px-4 py-2 me-md-2 custom-button" style={{backgroundColor: '#002147', borderColor: '#001a33',color: '#F4F0EE'}}>
+        <button type="button"  className="btn btn-md px-4 py-2 me-md-2 custom-button" style={{backgroundColor: '#002147', borderColor: '#001a33',color: '#F4F0EE'}}>
             Contact Us
         </button>
 

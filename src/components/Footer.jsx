@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* Middle Section: Explore Links */}
           <div className="col-md-2 p-3">
-            <h5 className="highlight-on-hover-yellow pb-2">Explore</h5>
+            <h5 className="highlight-on-hover-yellow pb-2">INFORMATION</h5>
             <ul className="list-unstyled mb-4">
               <li className="mb-2">
                 <a href="/" style={{ color: 'white', textDecoration: 'none' }}>Home</a>
@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-2 p-3">
-          <h5 className="highlight-on-hover-yellow pb-2">Pages</h5>
+          <h5 className="highlight-on-hover-yellow pb-2">LEGAL</h5>
             <ul className="list-unstyled mb-4">
             <li className="mb-2">
                 <a href="/terms-of-use" style={{ color: 'white', textDecoration: 'none' }}>Terms of Use</a>

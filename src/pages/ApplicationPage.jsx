@@ -12,11 +12,12 @@ const ApplicationPage = () => {
     <div>
       <ApplicationHero />
       <MetricsCard />
-      <BecomeExponentOfSuccess />
+      <ScaleupWithEaseText />
       <ServiceDetails />
       <JumbotronMetrics />
       <BankSlider />
-      <ScaleupWithEaseText />
+      <BecomeExponentOfSuccess />
+
       <ContactCard />
     </div>
     
