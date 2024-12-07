@@ -11,4 +11,4 @@ const MetricsCards = (props) => {
   )
 }
 
-export default MetricsCards
+export default MetricsCards;

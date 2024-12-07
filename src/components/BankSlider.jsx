@@ -1,7 +1,9 @@
 
 const BankSlider = () => {
   return (
-    <div>BankSlider</div>
+    <div>
+      Bank Slider
+    </div>
   )
 }
 
