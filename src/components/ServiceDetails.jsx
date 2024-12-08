@@ -17,6 +17,7 @@ const ServiceDetails = () => {
           <div className="row p-5">
             <div className="col-4">
             <ServiceCard />
+            
             </div>
             <div className="col-4">
             <ServiceCard />

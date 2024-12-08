@@ -11,6 +11,7 @@ import TermsofUse from './pages/TermsofUse';
 import TradeMarkPolicy from './pages/TradeMarkPolicy'
 import './styles/global.css'; // Import your CSS file here
 import './styles/transition.css';
+import ServicesContentPage from './pages/ServicesContentPage';
 
 
 const router = createBrowserRouter(
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
       <Route path='terms-of-use' element={<TermsofUse />} />
       <Route path='trade-mark-policy' element={<TradeMarkPolicy />} />
       <Route path='privacy-policy' element={<PrivacyPolicy />} />
+      <Route path='services-content' element={<ServicesContentPage />} />
       <Route path='*' element={<PageNotFound />} />
     </Route>
 
