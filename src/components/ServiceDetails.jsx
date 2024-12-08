@@ -1,6 +1,8 @@
-import ServiceCard from "./ServiceCard"
+import ServiceCard from "./ServiceCard";
+import servicesJ from '../serviceJson.json';
 
-const ServiceDetails = () => {
+const ServiceDetails = ({isHome=false}) => {
+   const services = isHome?servicesJ.slice(0,3):servicesJ;
   return (
     <div>
       <div className="container-xl py-5">
@@ -10,22 +12,16 @@ const ServiceDetails = () => {
           <p className="fs-5 lightGrey">We make the loan process seamless and easy by aggregating you on the right banks, so that you can make your dreams a reality.</p>
           </div>
           <div className="col-2 d-flex align-items-center justify-content-end">
-            <button className="btn custom_button">All Services</button>
+            <button className="btn custom_button fw-bold py-2 px-3">All Services</button>
           </div>
         </div>
-        
-          <div className="row px-5">
+        <div className="row px-5 pt-4 pb-5">
+        {services.map((service)=> (
             <div className="col-4">
-            <ServiceCard title="Personal Loan" />
+            <ServiceCard title={service.title}/>
             </div>
-            <div className="col-4">
-            <ServiceCard title="Bussiness Loan"/>
+            ))}
             </div>
-            <div className="col-4">
-            <ServiceCard title="Education Loan"/>
-            </div>
-          
-        </div>
       </div>
     </div>
     

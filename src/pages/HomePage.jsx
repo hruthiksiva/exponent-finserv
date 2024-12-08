@@ -13,7 +13,7 @@ const HomePage = () => {
       <Legacy />
       <MetricsCard />
       <br></br>
-      <ServiceDetails />
+      <ServiceDetails isHome={true} />
       {/* <PartnerBanks /> */}
       <div className='container xl p-5'>
       <ContactCard />

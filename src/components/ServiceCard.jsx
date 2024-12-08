@@ -4,6 +4,7 @@ import React from "react";
 const ServiceCard = ({title}) => {
   return (
     <a href="/" style={{ textDecoration: "none" }}>
+      <div className="py-3">
       <div className="card border-0 rounded-3">
         <div className="card-body p-3">
           <img
@@ -17,6 +18,7 @@ const ServiceCard = ({title}) => {
           <i className=" fa-solid fa-arrow-right fa-rotate-by fa-xl" style={{ "--fa-rotate-angle": "-45deg" }}></i>
           </p>
         </div>
+      </div>
       </div>
     </a>
   );
