@@ -16,12 +16,7 @@ const ServiceDetails = () => {
         
           <div className="row px-5">
             <div className="col-4">
-<<<<<<< HEAD
-            <ServiceCard />
-            
-=======
             <ServiceCard title="Personal Loan" />
->>>>>>> 1a5b519cf607ff6b17917002d1a8c61f7124c296
             </div>
             <div className="col-4">
             <ServiceCard title="Bussiness Loan"/>
