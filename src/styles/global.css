@@ -20,3 +20,9 @@ body{
 .lightGrey {
     color: #6e6e6e;
 }
+
+.col-lg-1-5 {
+    flex: 0 0 12.5%; /* 100% / 8 cards = 12.5% per card */
+    max-width: 12.5%;
+  }
+  
