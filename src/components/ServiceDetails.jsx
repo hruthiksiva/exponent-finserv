@@ -10,11 +10,11 @@ const ServiceDetails = () => {
           <p className="fs-5 lightGrey">We make the loan process seamless and easy by aggregating you on the right banks, so that you can make your dreams a reality.</p>
           </div>
           <div className="col-2 d-flex align-items-center justify-content-end">
-            <button className="btn custom_button">All Services</button>
+            <button className="btn custom_button fw-bold py-2 px-3">All Services</button>
           </div>
         </div>
         
-          <div className="row px-5">
+          <div className="row px-5 pt-4 pb-5">
             <div className="col-4">
             <ServiceCard title="Personal Loan" />
             </div>
