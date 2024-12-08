@@ -6,3 +6,17 @@ body{
     background-color: #E11839;
     color: #F4F0EE;
 }
+
+.custom_button{
+    background-color: #001247;
+    color: #F4F0EE;
+}
+
+.custom_button:hover{
+    background-color: #cad5f6;
+    color: #001247;
+}
+
+.lightGrey {
+    color: #6e6e6e;
+}
