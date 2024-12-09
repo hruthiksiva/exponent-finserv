@@ -3,7 +3,7 @@ import MetricsCards from "./MetricsCards";
 const MetricsCard = () => {
   return (
     <div>
-      <div className="text-center p-3">
+      <div className="text-center p-5">
         <h1 className="mb-3 diplay-1">We have impactful numbers</h1> 
         <p>Rugue phasellus dignissim lobortis tellus et arcu molestie convallis.</p>
       </div>
