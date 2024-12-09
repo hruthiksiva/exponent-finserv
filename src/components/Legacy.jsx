@@ -10,10 +10,7 @@ const Legacy = () => {
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" className="btn btn-md px-4 py-2 me-md-2 custom-button"  style={{backgroundColor: '#002147', borderColor: '#001a33',color: '#F4F0EE'}}>
-                Primary
-              </button>
-              <button type="button" className="btn btn-md px-4 py-2 me-md-2 custom-button"style={{backgroundColor: '#002147', borderColor: '#001a33',color: '#F4F0EE'}}>
-                Default
+                About Us
               </button>
             </div>
           </div>

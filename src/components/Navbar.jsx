@@ -2,16 +2,17 @@
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
+    <>
+    <nav className="navbar navbar-expand-lg navbar-light" style={{color:'#F4F0EE'}}>
+      <div className="container my-1 px-5">
         {/* Left: Logo */}
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand fs-4" href="/">
           <img
             src="src/assets/images/logo-dark-1.png"
             alt="Exponent Logo"
-            width="30"
+            width="40"
             height="30"
-            className="d-inline-block align-text-top me-2"
+            className="d-inline-block align-text-top m-1 me-3"
           />
           Exponent Finserv
         </a>
@@ -56,6 +57,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    <hr className='m-0' style={{border:'1px solid #000', opacity:'5%'}}></hr>
+    </>
   );
 };
 export default Navbar;
