@@ -1,6 +1,6 @@
 import bank from '../assets/images/banks/brand-1-1.png'
 const BankPartnership = () => {
-  const ImgIndex = Array.from({length:46},( _,i)=>i+1);
+  const ImgIndex = Array.from({length:43},( _,i)=>i+1);
   return (
     
     <div className="container p-5">
@@ -10,8 +10,7 @@ const BankPartnership = () => {
           <div className="card border-0 shadow-sm">
             <div className="card-body">
               <img
-                src={bank}
-                // src={`../assets/images/banks/brand-1-${index}.png`}
+                 src={`/public/banks/brand-1-${index}.png`}
                 alt={`Bank ${index}`}
                 className='img-fluid'
                 style={{ maxWidth: "100%", height: "auto" }}
