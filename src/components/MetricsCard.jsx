@@ -3,9 +3,9 @@ import MetricsCards from "./MetricsCards";
 const MetricsCard = () => {
   return (
     <div>
-      <div className="text-center p-5">
+      <div className="text-center p-3">
         <h1 className="mb-3 diplay-1">We have impactful numbers</h1> 
-        <p>Rugue phasellus dignissim lobortis tellus et arcu molestie convallis.</p>
+        <p>Every milestone we achieve reflects our dedication to transforming financial solutions and exceeding expectations.</p>
       </div>
       <div className="container-xl p-5">
       <div className="row">
