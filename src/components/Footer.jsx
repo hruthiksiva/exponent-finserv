@@ -89,13 +89,13 @@ const Footer = () => {
           <div className="col-md-4 p-3">
             <h5 className="highlight-on-hover-yellow pb-2">Contact Details</h5>
             <p>
-              <strong>Address:</strong> 123 Main Street, Bangalore, India
+              <strong>Address:</strong> #39, NGEF Lane, 2nd Floor, Suite No. 1467 Indiranagar Bangalore, Karnataka
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:contact@example.com" style={{ color: 'white', textDecoration: 'none' }}>contact@example.com</a>
+              <strong>Email:</strong> <a href="mailto:care@exponentfinserv.com" style={{ color: 'white', textDecoration: 'none' }}>care@exponentfinserv.com</a>
             </p>
             <p>
-              <strong>Phone:</strong> <a href="tel:+911234567890" style={{ color: 'white', textDecoration: 'none' }}>+91 123 456 7890</a>
+              <strong>Phone:</strong> <a href="tel:+918270586878" style={{ color: 'white', textDecoration: 'none' }}>+91 8270 58 68 78</a>
             </p>
           </div>
           <div className=""></div>

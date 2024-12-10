@@ -1,3 +1,4 @@
+import ContactCard from "../components/ContactCard"
 import ContactForm from "../components/ContactForm"
 import ServiceDetails from "../components/ServiceDetails"
 
@@ -6,6 +7,7 @@ const ServicesPage = () => {
     <div>
       <ServiceDetails />
       <ContactForm />
+      <ContactCard />
     </div>
   )
 }

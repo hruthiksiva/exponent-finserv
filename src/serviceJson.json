@@ -1,26 +1,26 @@
 [
     {
-      "src": "src/assets/images/hero-1.jpg",
+      "src": "public/services/Personalloan.png",
       "title": "Personal Loan"
     },
     {
-      "src": "src/assets/images/hero-1.jpg",
+      "src": "public/services/businessloan.png",
       "title": "Business Loan"
     },
     {
-      "src": "src/assets/images/hero-1.jpg",
+      "src": "public/services/educationloan.png",
       "title": "Education Loan"
     },
     {
-      "src": "src/assets/images/hero-1.jpg",
+      "src": "public/services/homeloan.png",
       "title": "Home Loan"
     },
     {
-      "src": "src/assets/images/hero-1.jpg",
+      "src": "public/services/Supplychain.png",
       "title": "Supply Chain Finance"
     },
     {
-      "src": "src/assets/images/hero-1.jpg",
+      "src": "public/services/Tradefinance.png",
       "title": "Trade Finance"
     }
   ]

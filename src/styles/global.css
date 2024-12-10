@@ -7,6 +7,11 @@ body{
     color: #F4F0EE;
 }
 
+.contact-us:hover{
+    background-color: #cad5f6;
+    color: #001247;
+}
+
 .custom_button{
     background-color: #001247;
     color: #F4F0EE;

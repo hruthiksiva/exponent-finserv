@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="container col-xxl-12 px-4 py-5">
     <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div className="col-10 col-sm-8 col-lg-6" >
-           <img src="src/assets/images/hero-1.jpg" className="d-block mx-lg-auto img-fluid rounded-4 shadow" alt="Bootstrap Themes" width="600" loading="lazy" />
+           <img src="src/assets/images/legacy-3.jpg" className="d-block mx-lg-auto img-fluid rounded-4 shadow" alt="Bootstrap Themes" width="600" loading="lazy" />
           {/* <div style={{position:'absolute',right:'0px', width:'300px', height:'300px'}} className="rounded-circle bg-dark">‎</div> */}
       </div>
       <div className="col-lg-6">
