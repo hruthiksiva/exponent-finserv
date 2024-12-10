@@ -13,7 +13,7 @@ const Legacy = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <img src="src/assets/images/hero-1.jpg" className="d-block mx-lg-auto img-fluid rounded-4 shadow" alt="Bootstrap Themes" width="600"  loading="lazy"/>
+            <img src="src/assets/images/legacy-2.jpg" className="d-block mx-lg-auto img-fluid rounded-4 shadow" alt="Bootstrap Themes" width="600"  loading="lazy"/>
           </div>
         </div>
       </div>

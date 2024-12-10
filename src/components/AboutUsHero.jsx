@@ -1,4 +1,3 @@
-import React from 'react'
 import aboutImg from '../assets/images/stockImages/about.png'
 
 const AboutUsHero = () => {
@@ -14,7 +13,7 @@ const AboutUsHero = () => {
         <div className='col-6 d-flex align-item-center' style={{position:'absolute', width:'35%', height:'100%', bottom:'0%', right:'10%',zIndex:'1', backgroundColor:' #F4F0EE'}}>
         <div className='mx-5'style={{zIndex:'2',marginTop:'40%'}}>
         <h1>The story behind how our company was founded</h1>
-          <p className='lightGrey'>Vel fermentum mauris elit pellentesque neque porta orci mattis ultricies. Elementum eget urna ultrices ridiculus. Bibendum sagittis egestas elit facilisis erat urna. Sem tortor lobortis at mi.</p>
+          <p className='lightGrey'>Exponent Finserv was founded to bridge the gap between traditional financial services and modern needs. Driven by a vision to empower businesses and individuals. From humble beginnings, we have grown into a trusted partner, committed to innovation, trust, and enabling financial success for all.</p>
         </div>
         </div>
         </div>

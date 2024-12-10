@@ -15,10 +15,11 @@ const Hero = () => {
         <h2 className="display-4 fw-bold lh-2 mb-3 text-justify">Transforming Financial Possibilities with Exponent Finserv</h2>
         <p className="fs-4 mb-4 text-justify">Become the Exponent of Success! Unlock fast, seamless business loans tailored to your needs. With easy financing solutions, you&apos;ll transform your business and scale up like never before!</p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-        <button type="button"  className="btn btn-md px-4 py-2 me-md-2 contact-us">
-            Contact Us
-        </button>
-
+        <div className="d-flex">
+            <a className="btn px-4 py-2 contact-us" href="/contact">
+              Contact Us
+            </a>
+        </div>
         </div>
       </div>
     </div>
