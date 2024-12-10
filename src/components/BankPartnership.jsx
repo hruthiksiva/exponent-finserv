@@ -1,4 +1,3 @@
-import bank from '../assets/images/banks/brand-1-1.png'
 const BankPartnership = () => {
   const ImgIndex = Array.from({length:43},( _,i)=>i+1);
   return (
