@@ -26,7 +26,7 @@ const router = createBrowserRouter(
       <Route path='trade-mark-policy' element={<TradeMarkPolicy />} />
       <Route path='privacy-policy' element={<PrivacyPolicy />} />
 
-      {/* To optimat this to dynamic links */}
+      {/* To optimal this to dynamic links */}
       <Route path='personal-loan' element={<ServicesContentPage loanType = 'personalLoan'/>} />
       <Route path='business-loan' element={<ServicesContentPage loanType = 'businessLoan'/>} />
       <Route path='home-loan' element={<ServicesContentPage loanType = 'homeLoan'/>} />

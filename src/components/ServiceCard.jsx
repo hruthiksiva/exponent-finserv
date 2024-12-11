@@ -11,9 +11,9 @@ const ServiceCard = ({ title, src, link }) => {
               src={src}
               alt="Placeholder"
               className="img-fluid rounded text-center"
-              width={400}
-              height={300} // Specify desired height
+              // Specify desired height
               style={{
+                width:'100%',
                 border: "2px solid #ddd",
                 objectFit: "cover", // Ensures zoom-in without stretching
               }}
