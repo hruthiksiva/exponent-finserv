@@ -50,7 +50,7 @@ const Navbar = () => {
 
           {/* Right: Contact Us */}
           <div className="d-flex">
-            <a className="btn contact-us" href="/contact">
+            <a className="btn contact-us p-sm-1 my-sm-3 p-lg-2" href="/contact">
               Contact Us
             </a>
           </div>

@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <footer style={{ backgroundColor: '#002147', color: 'white', padding: '20px 0' }}>
-      <div className="container">
+      <div className="container-fluid px-5">
         <div className="row">
         <div className="col-md-6 -pl-3">
             <h2>Exponent Finserv</h2>
@@ -17,10 +17,10 @@ const Footer = () => {
           
         </div>
         <hr></hr>
-        <div className="row p-3">
+        <div className="row">
 
           {/* Left Section: Newsletter Signup */}
-          <div className="col-md-4 pb-5">
+          <div className="col-md-3 col-lg-4 pb-5">
             <h5 className="highlight-on-hover-yellow pb-3">Newsletter</h5>
             <div style={{ textAlign: 'justify' }}>
             <p>Subscribe to our newsletter for expert loan tips, exclusive offers, and financial insights to help you make informed decisions. sign up now!</p>
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
 
           {/* Middle Section: Explore Links */}
-          <div className="col-md-2 p-3">
+          <div className="col-md-3 col-lg-2 p-3">
             <h5 className="highlight-on-hover-yellow pb-2">INFORMATION</h5>
             <ul className="list-unstyled mb-4">
               <li className="mb-2">
