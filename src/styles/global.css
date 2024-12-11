@@ -31,3 +31,7 @@ body{
     max-width: 12.5%;
   }
   
+.custom-cardes:hover{
+    scale: 1.02;
+    box-shadow: var(--shadow);
+}

@@ -40,7 +40,7 @@ const ServiceDetails = ({ isHome = false }) => {
               key={`${service.title}-${service.src}`} 
               className="col-12 col-md-6 col-lg-4 mb-4"
             >
-              <ServiceCard title={service.title} src={service.src} />
+              <ServiceCard title={service.title} src={service.src} link={service.link} />
             </div>
           ))}
         </div>

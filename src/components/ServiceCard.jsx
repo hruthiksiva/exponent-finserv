@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 
-const ServiceCard = ({ title, src }) => {
+const ServiceCard = ({ title, src, link }) => {
   return (
-    <a href="/" style={{ textDecoration: "none" }}>
+    <div className="custom-cardes">
+      <a href={link} style={{ textDecoration: "none" }}>
       <div className="py-3">
         <div className="card border-0 rounded-3">
           <div className="card-body p-3">
@@ -31,6 +32,7 @@ const ServiceCard = ({ title, src }) => {
         </div>
       </div>
     </a>
+    </div>
   );
 };
 
