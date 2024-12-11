@@ -2,10 +2,10 @@ import PropTypes from "prop-types";
 
 const ServiceCard = ({ title, src, link }) => {
   return (
-    <div className="custom-cardes">
+    <div>
       <a href={link} style={{ textDecoration: "none" }}>
       <div className="py-3">
-        <div className="card border-0 rounded-3">
+        <div className="card border-0 rounded-3 custom-card">
           <div className="card-body p-3">
             <img
               src={src}
@@ -24,7 +24,7 @@ const ServiceCard = ({ title, src, link }) => {
               style={{ width: "35px", height: "35px" }}
             >
               <i
-                className="fa-solid fa-arrow-right fa-rotate-by fa-xl"
+                className="fa-solid fa-arrow-right fa-rotate-by fa-xl custom-arrow "
                 style={{ "--fa-rotate-angle": "-45deg" }}
               ></i>
             </p>

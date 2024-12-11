@@ -1,7 +1,7 @@
 const ContactCard = () => {
   return (
     <div>
-      <div className="container-xl py-5 text-center">
+      <div className="container-fluid px-5 py-5 text-center">
         <div className="row">
           <div
             className="col-12 d-flex align-items-center justify-content-center rounded-4"

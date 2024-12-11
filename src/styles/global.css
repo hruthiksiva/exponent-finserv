@@ -8,8 +8,9 @@ body{
 }
 
 .contact-us:hover{
-    background-color: #cad5f6;
+    background-color: #ffa7b6;
     color: #001247;
+
 }
 
 .custom_button{
@@ -18,7 +19,7 @@ body{
 }
 
 .custom_button:hover{
-    background-color: #cad5f6;
+    background-color: #bdcbf7;
     color: #001247;
 }
 
@@ -31,7 +32,24 @@ body{
     max-width: 12.5%;
   }
   
-.custom-cardes:hover{
-    scale: 1.02;
-    box-shadow: var(--shadow);
+.custom-card:hover{
+    transform: scale(1.05); /* Scale up slightly */
+  box-shadow: 0px 0px 5px rgba(82, 81, 81, 0.2); /* Add shadow */
 }
+
+.custom-card{
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    border: none;
+}
+
+.custom-arrow {
+    display: inline-block; /* Ensure it behaves like an inline element */
+    transition: transform 0.2s ease-in-out; /* Smooth transition for the rotation */
+}
+
+
+.custom-arrow:hover{
+    transform: rotate(2deg);
+    
+}
+
