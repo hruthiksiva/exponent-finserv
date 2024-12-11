@@ -1,10 +1,10 @@
 const ContactCard = () => {
   return (
     <div>
-      <div className="container-fluid px-5 py-5 text-center">
+      <div className="container-fluid col-11 px-5 py-5 text-center my-5">
         <div className="row">
           <div
-            className="col-12 d-flex align-items-center justify-content-center rounded-4"
+            className="col-12 d-flex align-items-center justify-content-center rounded-4 "
             style={{ backgroundColor: '#002147', width: '100%', height: '350px' }}
           >
             <div className="lh-lg" style={{ paddingTop: '40px', color: '#F4F0EE', width: '90%' }}>

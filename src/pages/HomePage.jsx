@@ -18,9 +18,7 @@ const HomePage = () => {
       <JumbotronMetrics/>
       <BankPartners/>
       {/* <PartnerBanks /> */}
-      <div className='container xl p-5'>
       <ContactCard />
-      </div>
       
     </>
   )
