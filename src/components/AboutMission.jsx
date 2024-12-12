@@ -4,20 +4,20 @@ import mission from '../assets/images/stockImages/mission.jpg';
 const AboutMission = () => {
   return (
     <div style={{paddingTop:'100px', paddingBottom:'100px'}}>
-      <div className="container-fluid px-5 py-5 " style={{ backgroundColor: '#e3dfdc' }}>
+      <div className="container-fluid px-lg-5 py-5 " style={{ backgroundColor: '#e3dfdc' }}>
       {/* Vision Section */}
-      <div className="row p-5 mx-5 my-auto">
+      <div className="row p-5 mx-lg-5 my-auto">
         {/* Image Section */}
-        <div className="col-lg-4 col-md-6 col-sm-12 px-5 mb-4 mb-md-0 text-center ">
+        <div className="col-lg-4 col-md-6 col-sm-12 px-lg-5 mb-4 mb-md-0 text-center ">
           <img
             src={vission}
-            className="rounded-circle image-fluid "
+            className="rounded-circle img-fluid "
             style={{ height: '200px', width: '200px', objectFit: 'cover' }}
             alt="Vision"
           />
         </div>
         {/* Text Section */}
-        <div className="col-lg-8 col-md-6 col-sm-12 ">
+        <div className="col-lg-8 col-md-6 col-sm-12">
           <p>
             Our vision is to become a trusted leader in the financial services industry, known for delivering
             innovative, reliable, and customer-centric loan solutions. We aspire to create a future where businesses
@@ -41,18 +41,18 @@ const AboutMission = () => {
       ></div>
 
       {/* Mission Section */}
-      <div className="row p-5 mx-5 d-flex align-items-center my-auto">
+      <div className="row p-5 mx-lg-5 d-flex align-items-center my-auto">
         {/* Image Section */}
-        <div className="col-12 col-md-3 px-5 text-center order-1 order-md-2 mb-4 mb-md-0">
+        <div className="col-lg-4 col-md-6 col-sm-12 px-lg-5 mb-4 mb-md-0 text-center order-1 order-md-2">
           <img
             src={mission}
-            className="rounded-circle"
+            className="rounded-circle img-fluid"
             style={{ height: '200px', width: '200px', objectFit: 'cover' }}
             alt="Mission"
           />
         </div>
         {/* Text Section */}
-        <div className="col-12 col-md-9 order-2 order-md-1">
+        <div className="col-sm-12 col-md-6 col-lg-8 order-2 order-md-1">
           <p>
             At Exponent Finserv, our mission is to empower businesses and individuals by providing tailored financial
             solutions that fuel growth, stability, and success. We are dedicated to fostering financial inclusivity,
