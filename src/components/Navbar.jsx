@@ -1,7 +1,13 @@
 const Navbar = () => {
   return (
-    <>
-      <nav className="navbar navbar-expand-lg navbar-light" style={{ color: '#F4F0EE' }}>
+    <div style={{ position: 'sticky', top: '0' }}>
+      <nav
+        className="navbar navbar-expand-lg navbar-light"
+        style={{
+          backgroundColor: '#F4F0EE',
+          boxShadow: '0px 0px 1px rgba(0, 0, 0, 0.05)',
+        }}
+      >
         <div className="container-fluid mx-lg-5 px-lg-5">
           {/* Logo and Hamburger Menu */}
           <div className="d-flex justify-content-start align-items-center w-sm-100 px-4 px-lg-0">
@@ -22,7 +28,6 @@ const Navbar = () => {
             <a className="navbar-brand fs-4" href="/">
               <img
                 src="src/assets/images/logo-dark-1.png"
-                // src="/public/customLogo.png"
                 alt="Exponent Logo"
                 width="40"
                 height="40"
@@ -62,8 +67,15 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <hr className="m-3 m-lg-1" style={{ border: '1px solid #000', opacity: '5%' }}></hr>
-    </>
+      {/* Sticky Line Below Navbar */}
+      <div
+        style={{
+          height: '1px',
+          backgroundColor: '#000',
+          opacity: '0.1',
+        }}
+      ></div>
+    </div>
   );
 };
 
