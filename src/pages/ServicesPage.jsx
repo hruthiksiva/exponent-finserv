@@ -5,7 +5,7 @@ import ServiceDetails from "../components/ServiceDetails"
 const ServicesPage = () => {
   return (
     <div>
-      <ServiceDetails />
+      <ServiceDetails buttonValue="Apply" button_type="contact-us" />
       <ContactForm />
       <ContactCard />
     </div>

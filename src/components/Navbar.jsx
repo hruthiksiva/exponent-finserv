@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div style={{ position: 'sticky', top: '0' }}>
+    <div style={{ position: 'sticky', top: '0' , zIndex:'1000'}}>
       <nav
         className="navbar navbar-expand-lg navbar-light"
         style={{

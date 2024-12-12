@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'; // Import PropTypes
 import ServiceCard from './ServiceCard';
 import servicesJ from '../serviceJson.json';
 
-const ServiceDetails = ({ isHome = false }) => {
+const ServiceDetails = ({ isHome = false, buttonValue='All Services', button_type='custom_button' }) => {
   const services = isHome ? servicesJ.slice(0, 3) : servicesJ;
   return (
     <div>
@@ -18,8 +18,8 @@ const ServiceDetails = ({ isHome = false }) => {
 
           {/* Button Section for Large Screens */}
           <div className="col-md-2 d-none d-md-flex align-items-center justify-content-end">
-            <a className="btn custom_button fw-bold py-2 px-3" href="/service">
-              All Services
+            <a className={`btn ${button_type} fw-bold py-2 px-4 `}href="/service">
+              {buttonValue}
             </a>
           </div>
         </div>
@@ -27,8 +27,8 @@ const ServiceDetails = ({ isHome = false }) => {
         {/* Button Section for Small Screens */}
         <div className="row px-5 d-md-none">
           <div className="col-12 d-flex justify-content-center mt-3">
-            <a className="btn custom_button fw-bold py-2 px-3" href="/service">
-              All Services
+            <a className={`btn ${button_type} fw-bold py-2 px-4`} href="/service">
+              {buttonValue}
             </a>
           </div>
         </div>
