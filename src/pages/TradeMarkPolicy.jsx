@@ -2,7 +2,7 @@
 const TradeMarkPolicy = () => {
   return (
     <section className="about-three" style={{ padding: '2rem 0', backgroundColor: '#f9f9f9' }}>
-      <div className="container">
+      <div className="container-fluid col-10 py-4">
 
         {/* Section Title */}
         <div className="block-title text-left">

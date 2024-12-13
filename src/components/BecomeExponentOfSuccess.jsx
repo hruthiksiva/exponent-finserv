@@ -24,7 +24,7 @@ const BecomeExponentOfSuccess = () => {
                 Experience unparalleled financial services with Exponent Finserv — your trusted partner in delivering innovative solutions for secure and scalable growth. Let us empower your financial future.
               </p>
               <Link to="/contact">
-                <button className="col-sm-12 col-lg-2 mb-4 btn btn-lg contact-us">
+                <button className="col-sm-12 col-lg-2 mb-4 btn contact-us">
                   Contact Us
                 </button>
               </Link>

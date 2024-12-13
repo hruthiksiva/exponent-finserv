@@ -1,8 +1,8 @@
 
 const PrivacyPolicy = () => {
-  return (<div>
+  return (<div className="my-5 pb-5 ">
     <section className="about-three">
-            <div className="container text-justify">
+            <div className="container-fluid col-10 " style={{ textAlign: 'justify' }}>
 
 
                 <div className="row">
@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
                 <div className="row">
                     <div className="col">
                         <p>
-                            Exponent Finserv Private Limited (“Exponent Finserv”/”Company”/”ExponentFinserv.com”) including online platform(s) <a href="https://www.ExponentFinserv.com">www.ExponentFinserv.com</a> and “Mobile App” (Collectively “Website”) recognizes the importance of maintaining your privacy. ExponentFinserv.com is committed to maintaining the confidentiality, integrity, and security of all information of its users. This Privacy Policy describes how ExponentFinserv.com collects, stores, handles, and transfers certain information received from you via the use of the Website on a need basis. This Privacy Policy applies to the visitors to our Website and our existing and future customers. By proceeding to use our Website, you are accepting and consenting to the practices described in this Privacy Policy.
+                            Exponent Finserv Private Limited (“Exponent Finserv”/”Company”/”ExponentFinserv.com”) including online platform(s) <a href="https://www.ExponentFinserv.com" style={{textDecoration:'none'}}>www.ExponentFinserv.com</a> and “Mobile App” (Collectively “Website”) recognizes the importance of maintaining your privacy. ExponentFinserv.com is committed to maintaining the confidentiality, integrity, and security of all information of its users. This Privacy Policy describes how ExponentFinserv.com collects, stores, handles, and transfers certain information received from you via the use of the Website on a need basis. This Privacy Policy applies to the visitors to our Website and our existing and future customers. By proceeding to use our Website, you are accepting and consenting to the practices described in this Privacy Policy.
                         </p>
                         <p>
                             By using or continuing to use the Website you agree to our use of your information (including sensitive personal information as defined under the Information Technology Act 2000, applicable rules, notification, etc.) in accordance with this Privacy Policy, as may be amended from time to time by Exponent Finserv at its sole discretion.
@@ -113,7 +113,7 @@ const PrivacyPolicy = () => {
                 <div className="row">
                     <div className="col">
                         <p>ExponentFinserv.com collects your information when you register for an account, when you use its products or services, or when you visit its Websites pages. When you register with ExponentFinserv.com, you are asked for your first name, last name, state and city of residence, email address, date of birth, and sex. Once you register at the Website and sign in you are not anonymous to us. Also, you are asked for your contact number during registration and you may receive SMS, notifications about our services to your wireless device. Hence, by registering, you authorize ExponentFinserv.com (including its business partners and affiliates) to send texts and email alerts to you with your login details and any other service requirements, including promotional mails and SMS, even if you have registered yourself under DND or DNC or NCPR services. Your authorization shall be valid as long as your account is not deactivated or unless you withdraw your consent. ExponentFinserv.com may, based on your consent, also take one time access of your camera, microphone, location and mobile device for the purpose of service facilitation (including onboarding, collection of data for KYC) and ease of access to our Website for the various services opted by you and in compliance with applicable laws.</p>                    
-                        <p><b>Purpose for collecting information:</b></p>
+                        <p><b className='text-muted'>Purpose for collecting information:</b></p>
                         <ul>
                             <li>Assist us or our business partners in facilitating and delivering services to you, process payments and your applications, communicate with you about products, services and promotional offers.</li>
                             <li>Respond to queries, or requests submitted by you, and resolve your grievances/issues/problems regarding any services supplied to you.</li>
@@ -172,7 +172,7 @@ const PrivacyPolicy = () => {
                         <p>In the following situations, Exponent Finserv may retain your information for an extended period (i) in case of requirement of any investigations under law or as part of any requirements before courts/tribunals/forums/commissions etc; (ii) to enhance/improve our products/services and (iii) as required under contractual arrangements with business partners.</p>
                         <p>Exponent Finserv may retain your credit report, and credit score from Credit bureaus, including but not limited to a copy of your consumer credit report including credit score, at any time for (i) a limited period of six months or (ii) till such time the credit information is required to be retained to satisfy the purpose for which it was provided or (iii) until you withdraw your consent to store such Consumer Credit Information. </p>
                     
-                        <p><b>Provisions in line with RBIs Digital Lending Guidelines:</b></p>
+                        <p><b className='text-muted'>Provisions in line with RBIs Digital Lending Guidelines:</b></p>
                         <p>Any information of our customers taken for the purpose of facilitating digital lending services are retained for a period of eight years for meeting the servicing requirements of our customers. This duration will be determined from the most recent instance of customer accessing Exponent Finserv services. Please note that Exponent Finserv may need to retain basic identification details to comply with applicable legal and compliance requirements.</p>
 
                     </div>
@@ -212,7 +212,7 @@ const PrivacyPolicy = () => {
 
                 <div className="row">
                     <div className="col">
-                        <p>If you feel that we do not require the retention of your personal information or if you ask us to delete or remove your personal data where you think we do not have the right to process it, we shall destroy or delete such Customer information. You may, at any time while availing of our Services or otherwise, withdraw the consent given earlier to us to collect and use your sensitive personal data or information by writing to us at <a href="mailto:consentrevocation@exponentfinserv.com">consentrevocation@exponentfinserv.com</a>. Post successful verification of your consent withdrawal request, the same shall be processed within a period of 45 days from the date of receipt of such request subject to successful verification. In some cases, if you may have taken Exponent Finserv services we may not be in a position to delete your data. This is because as per the applicable law, we may be required to retain your data, for us/our partner banks/NBFCs to continue to provide services availed by you. We assure that such retained information shall be protected following all applicable cyber security norms.</p>
+                        <p>If you feel that we do not require the retention of your personal information or if you ask us to delete or remove your personal data where you think we do not have the right to process it, we shall destroy or delete such Customer information. You may, at any time while availing of our Services or otherwise, withdraw the consent given earlier to us to collect and use your sensitive personal data or information by writing to us at <a href="mailto:consentrevocation@exponentfinserv.com" style={{textDecoration:'none'}}>consentrevocation@exponentfinserv.com</a>. Post successful verification of your consent withdrawal request, the same shall be processed within a period of 45 days from the date of receipt of such request subject to successful verification. In some cases, if you may have taken Exponent Finserv services we may not be in a position to delete your data. This is because as per the applicable law, we may be required to retain your data, for us/our partner banks/NBFCs to continue to provide services availed by you. We assure that such retained information shall be protected following all applicable cyber security norms.</p>
                         <p>However, in the case of you withdrawing such consent, ExponentFinserv.com shall have the option to stop providing you the Services for which the information was sought. You will not be eligible for a refund of any fees paid for any service in such event and you agree that the company shall not be liable to you for the same in any manner whatsoever.</p>
                     </div>
 
@@ -307,12 +307,12 @@ const PrivacyPolicy = () => {
                 <div className="row">
                     <div className="col">
                         <p>The Company has appointed a Nodal Grievance Officer to redress customer grievances relating to any digital lending-related complaints. The name and contact details of the Nodal Grievance Officer are provided below:</p>
-                        <p><b>Name:</b> Mr. Ashok Kumar R</p>
-                        <p><b>Address:</b> Exponent Finserv Private Limited, 4/45, First Main Road, Rayala Nagar, Ramapuram,
+                        <p><b className='text-muted'>Name:</b> Mr. Ashok Kumar R</p>
+                        <p><b className='text-muted'>Address:</b> Exponent Finserv Private Limited, 4/45, First Main Road, Rayala Nagar, Ramapuram,
                             Chennai - 600089</p>
-                        <p><b>Email:</b> <a href="mailto:care@exponentfinserv.com">care@exponentfinserv.com</a></p>
-                        <p><b>Call at 8270 58 68 78</b> (Lines are open Mon-Sat from 9:30am to 6:30pm)</p>
-                        <p>If you have questions, concerns, or suggestions regarding our Privacy Policy, we can be reached using the contact information on our Contact Us page or at <a href="mailto:care@exponentfinserv.com">care@exponentfinserv.com</a></p>
+                        <p><b className='text-muted'>Email:</b> <a href="mailto:care@exponentfinserv.com"style={{textDecoration:'none'}}>care@exponentfinserv.com</a></p>
+                        <p><b className='text-muted'>Call at 8270 58 68 78</b> (Lines are open Mon-Sat from 9:30am to 6:30pm)</p>
+                        <p>If you have questions, concerns, or suggestions regarding our Privacy Policy, we can be reached using the contact information on our Contact Us page or at <a href="mailto:care@exponentfinserv.com" style={{textDecoration:'none'}}>care@exponentfinserv.com</a></p>
                     </div>
 
                     
@@ -333,14 +333,14 @@ const PrivacyPolicy = () => {
                 <div className="row">
                     <div className="col">
                         <p>In case you have any grievances or want to address any discrepancy with respect to the processing of any of the information/data you provided to ExponentFinserv.com, please contact our Data Grievance Officer. The name and contact details of the Grievance Officer are provided below:</p>
-                        <p><b>Name:</b> Ms Jaisree S</p>
-                        <p><b>Designation:</b> Chief Operations Officer, Exponent Finserv</p>
-                        <p><b>Address:</b> Exponent Finserv Private Limited, 4/45, First Main Road, Rayala Nagar, Ramapuram,
+                        <p><b className='text-muted' >Name:</b> Ms Jaisree S</p>
+                        <p><b className='text-muted'>Designation:</b> Chief Operations Officer, Exponent Finserv</p>
+                        <p><b className='text-muted'>Address:</b> Exponent Finserv Private Limited, 4/45, First Main Road, Rayala Nagar, Ramapuram,
                             Chennai - 600089</p>
-                        <p><b>Tel:</b> 8270 18 28 38 (Lines are open Mon-Sat from 9:30am to 6:30pm)</p>
-                        <p><b>Email:</b> <a href="mailto:admin@exponentfinserv.com">admin@exponentfinserv.com</a></p>
-                        <p>If you have questions, concerns, or suggestions regarding our Privacy Policy, we can be reached using the contact information on our Contact Us page or at <a href="mailto:care@exponentfinserv.com">care@exponentfinserv.com</a></p>
-                        <p><b>This Privacy Policy was last updated on: 28 Oct 2024</b></p>
+                        <p><b className='text-muted'>Tel:</b> 8270 18 28 38 (Lines are open Mon-Sat from 9:30am to 6:30pm)</p>
+                        <p><b className='text-muted'>Email:</b> <a href="mailto:admin@exponentfinserv.com" style={{textDecoration:'none'}}>admin@exponentfinserv.com</a></p>
+                        <p>If you have questions, concerns, or suggestions regarding our Privacy Policy, we can be reached using the contact information on our Contact Us page or at <a href="mailto:care@exponentfinserv.com" style={{textDecoration:'none'}}>care@exponentfinserv.com</a></p>
+                        <p><b className='text-muted'>This Privacy Policy was last updated on: 28 Oct 2024</b></p>
                     </div>
 
                 </div>

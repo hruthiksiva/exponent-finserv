@@ -1,7 +1,7 @@
 const TermsofUse = () => {
   return (
     <section className="about-three">
-      <div className="container text-justify py-5">
+      <div className="container-fluid col-10 text-justify py-5 " style={{ textAlign: 'justify' }}>
         <div className="row">
           <div className="col-lg-6">
             <div className="block-title text-left">
