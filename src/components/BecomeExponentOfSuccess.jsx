@@ -19,9 +19,9 @@ const BecomeExponentOfSuccess = () => {
 
             {/* Text section: Moves below image on small screens */}
             <div className="col-12 col-md-6 order-2 order-md-1">
-              <h1 className="display-5 fw-bold">Become Exponent of Success</h1>
+              <h1 className="display-5 fw-bold">Become Exponent Of Success</h1>
               <p className="fs-4">
-                Experience unparalleled financial services with Exponent Finserv — your trusted partner in delivering innovative solutions for secure and scalable growth. Let us empower your financial future.
+                Experience unparalleled financial services with Exponent Finserv, your trusted partner in delivering innovative solutions for secure and scalable growth. Let us empower your financial future.
               </p>
               <Link to="/contact">
                 <button className="col-sm-12 col-lg-2 mb-4 btn contact-us">

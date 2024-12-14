@@ -17,7 +17,7 @@ const Legacy = () => {
           {/* Text Section */}
           <div className="col-10 col-sm-12 col-lg-6 order-2 order-lg-1">
             <h2 className="display-4 fw-bold lh-2 mb-3 text-justify">
-              Our Legacy of Trust and Precision
+              Our Legacy Of Trust And Precision
             </h2>
             <p className="fs-4 mb-4 text-justify">
               For years, Exponent Finserv has been a beacon of excellence, consistently delivering accurate, reliable,

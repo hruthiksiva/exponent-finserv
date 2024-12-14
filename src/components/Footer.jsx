@@ -21,7 +21,7 @@ const Footer = () => {
 
           {/* Left Section: Newsletter Signup */}
           <div className="col-md-3 col-lg-4 pb-5">
-            <h5 className="highlight-on-hover-yellow pb-3">Newsletter</h5>
+            <h5 className="highlight-on-hover-yellow pb-3">NEWSLETTER</h5>
             <div style={{ textAlign: 'justify' }}>
             <p>Subscribe to our newsletter for expert loan tips, exclusive offers, and financial insights to help you make informed decisions. sign up now!</p>
             </div>
@@ -87,7 +87,7 @@ const Footer = () => {
 
           {/* Right Section: Contact Details */}
           <div className="col-md-4 p-3">
-            <h5 className="highlight-on-hover-yellow pb-2">Contact Details</h5>
+            <h5 className="highlight-on-hover-yellow pb-2">CONTACT DETAILS</h5>
             <p>
               <strong>Address:</strong> #39, NGEF Lane, 2nd Floor, Suite No. 1467 Indiranagar Bangalore, Karnataka
             </p>

@@ -12,8 +12,8 @@ const Hero = () => {
          <div className="badge fw-normal bg-hero py-2 px-3 rounded-pill mb-2" style={{backgroundColor: '#c8dcf4', color: '#002147'}}>
               Every client growing 5X&nbsp;<span>↗</span>
         </div>
-        <h2 className="display-4 fw-bold lh-2 mb-3 text-justify">Transforming Financial Possibilities with Exponent Finserv</h2>
-        <p className="fs-4 mb-4 text-justify">Become the Exponent of Success! Unlock fast, seamless business loans tailored to your needs. With easy financing solutions, you&apos;ll transform your business and scale up like never before!</p>
+        <h2 className="display-4 fw-bold lh-2 mb-3 text-justify">Transforming Financial Possibilities With Exponent Finserv</h2>
+        <p className="fs-4 mb-4 text-justify">Become the exponent of success! Unlock fast, seamless business loans tailored to your needs. With easy financing solutions, you&apos;ll transform your business and scale up like never before!</p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
         <div className="d-grid d-md-flex">
             <a className="btn px-4 py-2 contact-us" href="/contact">

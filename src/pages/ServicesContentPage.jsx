@@ -40,7 +40,7 @@ const ServiceDetails = ({ loanType }) => {
               ))}
             </Col>
             <Col className="my-5 d-flex justify-content-lg-start justify-content-center">
-                <Button className="contact-us border-0 rounded-3 px-4 py-2" href="/apply-now">
+                <Button className="contact-us border-0 rounded-3 px-4 py-2" href="/application">
                   Apply
                 </Button>
               </Col>
