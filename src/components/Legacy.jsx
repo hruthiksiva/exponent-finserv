@@ -1,3 +1,4 @@
+import legacyimg from "../assets/images/legacy-2.jpg"
 const Legacy = () => {
   return (
     <div>
@@ -6,7 +7,7 @@ const Legacy = () => {
           {/* Image Section */}
           <div className="col-lg-6 order-1 order-lg-2">
             <img
-              src="src/assets/images/legacy-2.jpg"
+              src={legacyimg}
               className="d-block mx-lg-auto img-fluid rounded-4 shadow"
               alt="Bootstrap Themes"
               width="600"

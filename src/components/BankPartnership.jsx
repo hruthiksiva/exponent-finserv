@@ -13,7 +13,7 @@ const BankPartnership = () => {
             <div className="card border-0 shadow-sm">
               <div className="card-body text-center">
                 <img
-                  src={`/public/banks/brand-1-${index}.png`}
+                  src={`/banks/brand-1-${index}.png`}
                   alt={`Bank ${index}`}
                   className="img-fluid"
                   style={{ maxWidth: "100%", height: "auto" }}

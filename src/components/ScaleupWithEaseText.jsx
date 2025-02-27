@@ -1,3 +1,4 @@
+import legacy3 from "../assets/images/legacy-3.jpg"
 const ScaleupWithEaseText = () => {
   return (
     <div>
@@ -6,7 +7,7 @@ const ScaleupWithEaseText = () => {
           <div className="row">
             <div className="col-12 col-md-6 pb-3">
               <img
-                src="src/assets/images/legacy-3.jpg"
+                src={legacy3}
                 className="d-block mx-lg-auto img-fluid rounded-4 shadow"
                 alt="Bootstrap Themes"
                 width="600"

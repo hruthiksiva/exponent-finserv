@@ -1,3 +1,4 @@
+import logodark from "../assets/images/logo-dark-1.png"
 const Navbar = () => {
   return (
     <div style={{ position: 'sticky', top: '0' , zIndex:'1000'}}>
@@ -27,7 +28,7 @@ const Navbar = () => {
             {/* Logo */}
             <a className="navbar-brand fs-4" href="/">
               <img
-                src="src/assets/images/logo-dark-1.png"
+                src={logodark}
                 alt="Exponent Logo"
                 width="40"
                 height="40"

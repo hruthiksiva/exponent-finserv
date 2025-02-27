@@ -6,7 +6,7 @@ const ContactCard = () => {
         <div
           className="d-flex align-items-center justify-content-center rounded-4"
           style={{
-            backgroundImage: 'url(/public/custom_card.png)', // replace with your image URL
+            backgroundImage: 'url(/custom_card.png)', // replace with your image URL
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             width: '100%',
@@ -18,7 +18,7 @@ const ContactCard = () => {
             <p className="col-6 mx-auto" style={{ opacity: '85%' }}>
               Are you ready to step up? Contact us now to see how Exponent can elevate your financial journey.
             </p>
-            <a href="#" className="btn contact-us">Contact Us</a>
+            <a href="/application" className="btn contact-us">Contact Us</a>
           </div>
         </div>
       </div>

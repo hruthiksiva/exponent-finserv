@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import legacy4 from "../assets/images/legacy-4.jpg"
 
 const BecomeExponentOfSuccess = () => {
   return (
@@ -9,7 +10,7 @@ const BecomeExponentOfSuccess = () => {
             {/* Image section: Moves above text on small screens */}
             <div className="col-12 col-md-6 mb-4 order-1 order-md-2">
               <img
-                src="src/assets/images/legacy-4.jpg"
+                src={legacy4}
                 className="d-block mx-lg-auto img-fluid rounded-4 shadow"
                 alt="Bootstrap Themes"
                 width="100%"

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import tree1 from "../assets/images/tree-1.png" 
 
 const ContactForm = () => {
   useEffect(() => {
@@ -37,7 +38,7 @@ const ContactForm = () => {
           {/* Image Section */}
           <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-center text-center">
             <img 
-              src="src/assets/images/tree-1.png" 
+              src={tree1}
               className="img-fluid mb-3" 
               alt="Bootstrap Themes" 
               width="300" 
