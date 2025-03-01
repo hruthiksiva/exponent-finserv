@@ -2,7 +2,7 @@ import aboutImg from '../assets/images/stockImages/about.png';
 
 const AboutUsHero = () => {
   return (
-    <div className="container-fluid" style={{ height: '700px', position: 'relative' }}>
+    <div className="container-fluid" style={{ height: '600px', position: 'relative' }}>
       <div
         style={{
           width: '100%',

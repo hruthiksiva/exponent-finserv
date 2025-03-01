@@ -1,4 +1,4 @@
-import legacyimg from "../assets/images/legacy-2.jpg"
+import legacyimg from "../assets/images/legacy-6.jpg"
 const Legacy = () => {
   return (
     <div>

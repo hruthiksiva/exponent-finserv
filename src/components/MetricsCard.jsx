@@ -10,10 +10,10 @@ const MetricsCard = () => {
       <div className="container-xl p-5">
         <div className="row">
           <div className="col">
-            <MetricsCards title='15K' describe='Happy Clients'/>
+            <MetricsCards title='1000+' describe='Happy Clients'/>
           </div>
           <div className="col-sm-6 col-md-3">
-            <MetricsCards title='50+' describe='Team Members'/>
+            <MetricsCards title='20+' describe='Years of Service'/>
           </div>
           <div className="col-sm-6 col-md-3">
             <MetricsCards title='98%' describe='Customer Satisfaction'/>
