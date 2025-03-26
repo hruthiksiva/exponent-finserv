@@ -64,3 +64,17 @@ body{
     
 }
 
+
+
+.certification-logo {
+    width: 120px; /* Fixed size */
+    height: 80px; /* Adjust as needed */
+    object-fit: contain; /* Keeps aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .certification-logo {
+      width: 100px;
+      height: 70px;
+    }
+  }

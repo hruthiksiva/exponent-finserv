@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import legacy4 from "../assets/images/legacy-4.jpg"
+import legacy4 from "../assets/images/application-2.jpg"
 
 const BecomeExponentOfSuccess = () => {
   return (

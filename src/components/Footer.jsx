@@ -97,13 +97,16 @@ const Footer = () => {
             <p>
               <strong>Phone:</strong> <a href="tel:+918270586878" style={{ color: 'white', textDecoration: 'none' }}>+91 8270 58 68 78</a>
             </p>
+            <p>
+              <strong>CIN:</strong> U67100TN2021PTC146710
+            </p>
           </div>
           <div className=""></div>
 
           <hr></hr>
 
           <div className="row">
-            <div className="col-md-4 p-2">© Copyright 2022 by Exponent Finserv Private Limited
+            <div className="col-md-4 p-2">© Copyright 2025 by Exponent Finserv Private Limited
 
 </div>
             <div className="col-md-4"></div>
