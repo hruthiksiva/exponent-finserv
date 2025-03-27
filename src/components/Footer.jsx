@@ -21,30 +21,14 @@ const Footer = () => {
 
           {/* Left Section: Newsletter Signup */}
           <div className="col-md-3 col-lg-4 pb-5">
-            <h5 className="highlight-on-hover-yellow pb-3">NEWSLETTER</h5>
+            <br></br>
             <div style={{ textAlign: 'justify' }}>
-            <p>Subscribe to our newsletter for expert loan tips, exclusive offers, and financial insights to help you make informed decisions. sign up now!</p>
+            <p>
+            Exponent Finserv is dedicated to transforming financial aspirations into reality. With a strong commitment to innovation, reliability, and customer-centric solutions, we empower businesses and individuals with tailored financial services. Our vision is to create a future where financial freedom is accessible to all, supported by cutting-edge technology and expert guidance.              </p>
             </div>
-            <form>
-              <div className="mb-4">
-                <label htmlFor="newsletterEmail" className="form-label pb-2">
-                  Email Address
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="newsletterEmail"
-                  placeholder="Enter your email"
-                  required
-                />
-              </div>
-              <div className="d-grid gap-2">
-              <button type="submit" className="btn contact-us">
-                Subscribe
+            <button type="submit" className="btn contact-us">
+                Contact Us
               </button>
-              </div>
-              
-            </form>
           </div>
 
           {/* Middle Section: Explore Links */}
@@ -89,8 +73,13 @@ const Footer = () => {
           <div className="col-md-4 p-3">
             <h5 className="highlight-on-hover-yellow pb-2">CONTACT DETAILS</h5>
             <p>
-              <strong>Address:</strong> #39, NGEF Lane, 2nd Floor, Suite No. 1467 Indiranagar Bangalore, Karnataka
+              <strong>Main Address:</strong> #39, NGEF Lane, 2nd Floor, Suite No. 1467 Indiranagar Bangalore, Karnataka
             </p>
+            <p>
+              <strong>Our Offices:</strong> Chennai, Bangalore, Kochi, Hyderabad, Mumbai, Visakhapatnam
+            </p>
+
+            
             <p>
               <strong>Email:</strong> <a href="mailto:care@exponentfinserv.com" style={{ color: 'white', textDecoration: 'none' }}>care@exponentfinserv.com</a>
             </p>

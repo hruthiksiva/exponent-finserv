@@ -54,9 +54,22 @@ const Navbar = () => {
                 <a className="nav-link highlight-on-hover-blue" href="/application">Application</a>
               </li>
             </ul>
+            <br></br>
 
             {/* Contact Us Button */}
             <div className="d-grid">
+
+              <a
+                className="btn custom_button px-4 py-2"
+                href="/contact"
+                style={{ whiteSpace: 'nowrap' }}
+              >
+                Become Partner
+              </a>
+            </div>
+            <br></br>
+            <div className="d-grid px-1">
+
               <a
                 className="btn contact-us px-4 py-2"
                 href="/contact"

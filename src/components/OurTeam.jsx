@@ -10,7 +10,7 @@ const teamMembers = [
   const OurTeam = () => {
     return (
       <div style={{ paddingTop: '100px', paddingBottom: '100px' }}>
-        <div className="container-fluid px-lg-5 py-5" style={{ backgroundColor: '#f8f9fa' }}>
+        <div className="container-fluid px-lg-5 " >
           <h2 className="text-center mb-5">Meet Our Team</h2>
           <div className="row mx-lg-5 d-flex justify-content-center">
             {teamMembers.map((member, index) => (
